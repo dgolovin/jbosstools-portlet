@@ -12,6 +12,11 @@
 	<version>1.4.0-SNAPSHOT</version>
 	<name>portlet.all</name>	
 	<packaging>pom</packaging>
+
+        <properties>
+                <tycho.scmUrl>scm:git:git://github.com/jbosstools/jbosstools-portlet</tycho.scmUrl>
+        </properties>
+
 	<modules>
 		<module>features</module>
 		<module>plugins</module>
